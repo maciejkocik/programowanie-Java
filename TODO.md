@@ -1,0 +1,14 @@
+
+- [X] ~~Konstruktor bezparametrowy, tworzący datę pierwszego naszego wykładu z PiPO (wszyscy pamiętamy, że to było 5 X 2023).~~
+- [X] ~~Konstruktor z jednym parametrem tego samego typu (datą), kopiuje dane z parametru.~~
+- [X] ~~Konstruktor z trzema parametrami typu int: numerem dnia, miesiąca i roku (np. 5, 10, 2023). Konstruktor powinien za pomocą asercji sprawdzić, czy parametry są poprawne (tj. numer dnia i numer miesiąca mieszczą się w stosownych przedziałach, w szczególności dla parametrów 29, 2, 2023 asercja powinna przerwać działanie programu).~~ 
+- [X] ~~toString (napis z kolejnością DMR, liczby rozdzielone ukośnikiem).~~
+- [X] ~~Getery do trzech składników daty, nazwane w konwencji z wykładu (czyli bez "get").~~
+- [X] ~~Metoda stwierdzająca, czy rok zadany jako parametr jest przestępny (np. tu można poszukać informacji https://en.wikipedia.org/wiki/Leap_year).~~
+- [X] ~~Metoda dająca liczbę dni zadanego miesiąca (w zadanym roku).~~
+- [X] ~~Metoda dająca liczbę dni zadanego roku.~~
+- [X] ~~Metoda równa sprawdzająca, czy data jest równa zadanej.~~
+- [X] ~~Metoda przed sprawdzająca, czy data jest wcześniejsza od zadanej.~~
+- [X] ~~Metoda kolejnyDzień przesuwająca datę o jeden dzień do przodu.~~
+- [X] ~~Metoda ileDniPrzed dająca liczbę dni dzielących datę od zadanej. Jeśli zadana data jest wcześniejsza, to wynik ma być ujemny. Każda data jest o jeden dzień wcześniejsza niż jutrzejsza i o zero dni wcześniejsza od siebie samej. Liczenie nie musi być efektywne czasowo, można liczyć dni odstępu po jednym (ale sprytniejsze rozwiązania są mile widziane).~~
+- [X] ~~Metoda dodajDni przesuwająca datę o zadaną liczbę dni do przodu (może robić to krok po kroku, tj. dzień za dniem).~~
