@@ -1,4 +1,4 @@
-package główny;
+package main;
 
 import kompresja.NS;
 

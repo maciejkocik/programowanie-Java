@@ -1,6 +1,8 @@
+package main;
+
 import kalendarze.Data;
 
-public class Główna {
+public class MainKalendarz {
 
     public void testuj(){
         // Test klasy kalendarze.Data
@@ -55,7 +57,7 @@ public class Główna {
     public static void main(String[] args) {
         System.out.println("Start!");
 
-        Główna o = new Główna();
+        MainKalendarz o = new MainKalendarz();
         o.testuj();
 
 
